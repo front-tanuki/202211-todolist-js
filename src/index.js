@@ -78,6 +78,8 @@ const deleteFromIncompleteList = (Target) => {
   document.getElementById("incomplete-list").removeChild(Target);
 };
 
+// 未完了リストに追加する関数
+
 document
   .getElementById("add-button")
   .addEventListener("click", () => onClickAdd());

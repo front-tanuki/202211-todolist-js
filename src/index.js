@@ -78,7 +78,7 @@ const deleteFromIncompleteList = (Target) => {
   document.getElementById("incomplete-list").removeChild(Target);
 };
 
-// 未完了リストに追加する関数
+// 未完了リストに追加する関数テスト
 
 document
   .getElementById("add-button")
